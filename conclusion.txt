@@ -1,0 +1,33 @@
+what is A/B testing ?
+   ->  a method of comparing two or more versions of a product to determine which one performs better
+
+what is z-statistic ?
+    -> Z-statistic: Indicates how many standard deviations an element is from the mean. A higher absolute value suggests a greater difference between groups.
+
+what is p value ?
+    -> P-value: Tells you the probability of observing the data if the null hypothesis (no difference in conversion rates) is true. A lower p-value (typically less than 0.05) indicates that you can reject the null hypothesis.
+
+null and alternate hypothesis :
+    -> If the p-value is less than 0.05, reject the null hypothesis and conclude that the ad campaign had a statistically significant effect on conversions.
+       If the p-value is greater than 0.05, fail to reject the null hypothesis, meaning there is no statistically significant difference between the groups.
+
+for this project 2 questions were important to answer : 
+    1. Would the campaign be successful?
+    2. If the campaign was successful, how much of that success could be attributed to the ads?
+
+steps for performing A/B testing were : 
+    1. performing hypothesis testing :
+        Null Hypothesis (H0): There is no difference in conversion rates between the "ad" group and the "psa" group.
+        Alternative Hypothesis (H1): The conversion rate of the "ad" group is higher than the "psa" group.
+    2. calculated z statistic and p value 
+
+
+conclusions : 
+    1. the conversion rate for ads and psa were 
+                test group
+        ad     0.025547
+        psa    0.017854
+        
+    2.  since  p-value is extremely low, we can confidently assert that the advertisement campaign had a meaningful impact on conversions
+    3. by examing the graph of conversion rate by hour , most of the conversion happened during the time of 15:00 , 16:00 and 20:00
+    4. by examining the graph of conversion rate of ads/hour we can see that ,  between rate of 0% to 40% percent most ads were displayed yet the  covnersion rate is low . so we can conclude that more quantity of ads doesnt gaurantee the conversion 
